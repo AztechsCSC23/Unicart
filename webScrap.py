@@ -66,5 +66,5 @@ with open(filename, mode="w", newline="") as file:
         except:
             break  # error loading page, exit loop
 
-# quit the web driver
+# Quit the web driver
 driver.quit()
